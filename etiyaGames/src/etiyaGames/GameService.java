@@ -16,7 +16,6 @@ public class GameService {
 
 		Game game1 = new Game();
 		game1.setGameName("CS:GO");
-		game1.setGameType("Fps");
 		game1.setGamePrice(35);
 
 		this.games.add(game1);

@@ -5,6 +5,17 @@ public class User {
 	private String lastName;
 	private int age;
 
+	public User() {
+		super();
+	}
+
+	public User(String firstName, String lastName, int age) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+	}
+
 	public String getFirstName() {
 		return firstName;
 	}
