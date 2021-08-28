@@ -1,0 +1,45 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public class CustomerManager {
+		
+		MyContext context = new MyContext();
+		
+		public void transactionalOpertion() {
+			
+			
+			
+		}
+		public void update() {
+			
+			context.update();
+		}
+
+		public void add() {
+			context.add();
+		}
+	}
+
+	public class MyContext {
+		public void update() {
+
+		}
+
+		public void add() {
+
+		}
+	}
+	
+	public class PersonManager{
+		public void add() {
+			CustomerManager customerManager = new CustomerManager();
+			customerManager.transactionalOpertion();
+		}
+	}
+
+}

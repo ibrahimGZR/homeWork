@@ -1,0 +1,38 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Open Closed Prenciple
+
+	}
+	
+	//Loosely Coupled
+	public class CustomerManager {
+		
+		public void add() {
+			CustomerDaoRepository customerDaoRepository = new HibernateCustomerDao();
+			customerDaoRepository.add();
+		}
+	}
+	
+	public class HibernateCustomerDao implements CustomerDaoRepository {
+		//Nhibernate code
+		public void add() {
+			System.out.println("Added by Hibernate");
+		}
+	}
+	
+	public class EfCustomerDao implements CustomerDaoRepository {
+		//Nhibernate code
+		public void add() {
+			System.out.println("Added by Ef");
+		}
+	}
+	
+	
+	
+	public interface CustomerDaoRepository{
+		void add();
+	}
+
+}

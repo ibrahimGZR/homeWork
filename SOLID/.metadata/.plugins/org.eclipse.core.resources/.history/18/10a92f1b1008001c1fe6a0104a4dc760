@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Liskov's Substitution Prenciple
+		
+		Customer ibrahim = new IndividualCustomer(1, "İbrahim", "Gezer","1111111111");
+		
+		Customer firma = new Customer(1,"Abc Kozmatik",null);
+
+	}
+
+}

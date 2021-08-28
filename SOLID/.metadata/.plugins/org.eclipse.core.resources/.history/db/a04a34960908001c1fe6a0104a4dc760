@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Open Closed Prenciple
+
+	}
+	
+	public class CustomerManager {
+		
+	}
+	
+	public class CustomerDal {
+		public void add() {
+			System.out.println("Added to database");
+		}
+	}
+
+}

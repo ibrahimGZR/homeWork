@@ -1,0 +1,5 @@
+
+public class IndividualCustomer {
+	private String firstName;
+	private String lastName;
+}

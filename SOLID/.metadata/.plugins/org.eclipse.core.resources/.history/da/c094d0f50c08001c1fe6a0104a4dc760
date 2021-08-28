@@ -1,0 +1,14 @@
+
+public class CustomerManager {
+	private CustomerDaoRepository customerDaoRepository;
+
+	public CustomerManager(CustomerDaoRepository customerDaoRepository) {
+		super();
+		this.customerDaoRepository = customerDaoRepository;
+	}
+
+	public void add() {
+
+		this.customerDaoRepository.add();
+	}
+}

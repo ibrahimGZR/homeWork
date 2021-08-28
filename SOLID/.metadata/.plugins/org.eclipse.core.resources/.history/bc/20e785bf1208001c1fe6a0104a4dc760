@@ -1,0 +1,9 @@
+package concretes;
+
+import abstracts.Eatable;
+import abstracts.Payable;
+import abstracts.Workable;
+
+public class OutsourceWorkerManager implements Workable, Payable{
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Main.CustomerDal"/>
+    <fullyQualifiedTypeName name="Main.HibernateCustomerDao"/>
+    <fullyQualifiedTypeName name="Main.CustomerManager"/>
+    <fullyQualifiedTypeName name="Main.EfCustomerDao"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Customer"/>
+    <fullyQualifiedTypeName name="IndividualCustomer"/>
+    <fullyQualifiedTypeName name="CorporateCustomer"/>
+    <fullyQualifiedTypeName name="WorkerService"/>
+    <fullyQualifiedTypeName name="abstracts.Workable"/>
+    <fullyQualifiedTypeName name="abstracts.Eatable"/>
+    <fullyQualifiedTypeName name="abstracts.Payable"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,6 @@
+package concretes;
+import abstracts.WorkerService;
+
+public class CompanyWorkerManager implements WorkerService{
+
+}

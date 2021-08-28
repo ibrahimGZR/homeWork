@@ -1,0 +1,6 @@
+
+public interface WorkerService {
+	void pay();
+	void eat();
+	void work();
+}

@@ -1,0 +1,6 @@
+
+public class EfCustomerDao implements CustomerDaoRepository {
+	public void add() {
+		System.out.println("Added by Ef");
+	}
+}

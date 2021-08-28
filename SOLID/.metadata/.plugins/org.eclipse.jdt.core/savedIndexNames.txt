@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\ibrahim.gezer\etiyaCamp\SOLID\.metadata\.plugins\org.eclipse.jdt.core
+763597261.index
+623478314.index
+1801906377.index
+602031297.index
+3702509947.index
