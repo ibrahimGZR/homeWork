@@ -50,5 +50,10 @@ public class Main {
 		SalesManager salesManager = new SalesManager(new SalesDao());
 		salesManager.add(sales1);
 	}
+	
+	
+	
+	
+	
 
 }

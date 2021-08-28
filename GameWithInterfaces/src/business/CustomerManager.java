@@ -29,6 +29,7 @@ public class CustomerManager implements CustomerService {
 
 	@Override
 	public void update(Customer customer) {
+		mernisCheckService.check(customer);
 		customerDaoRepository.update(customer);
 
 	}
