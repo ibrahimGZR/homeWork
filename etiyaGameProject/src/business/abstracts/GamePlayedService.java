@@ -1,4 +1,4 @@
-package business;
+package business.abstracts;
 
 import entities.GamePlayed;
 

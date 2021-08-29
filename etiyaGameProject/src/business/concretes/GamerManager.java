@@ -1,5 +1,6 @@
-package business;
+package business.concretes;
 
+import business.abstracts.GamerService;
 import core.UserIdentityValidatorService;
 import entities.Gamer;
 
@@ -22,21 +23,22 @@ public class GamerManager implements GamerService {
 
 	@Override
 	public void getAll() {
-		// TODO Auto-generated method stub
+		System.out.println("Oyuncular listelendi : ");
 
 	}
 
 	@Override
 	public void update(Gamer gamer) {
 		if (userIdentityValidatorService.isValid(gamer)) {
-			System.out.println("Oyuncu güncellendi : " + gamer.getFirstName());
+			System.out.println("Oyuncu gÃ¼ncellendi : " + gamer.getFirstName());
 		}
 
 	}
 
 	@Override
 	public void delete(Gamer gamer) {
-		// TODO Auto-generated method stub
+			System.out.println("Oyuncu silindi : " + gamer.getFirstName());
+		
 
 	}
 
