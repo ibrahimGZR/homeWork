@@ -1,10 +1,7 @@
 package business.abstracts;
 
-import entities.Game;
+import entities.concretes.Game;
 
-public interface GameService {
-	void add(Game game);
-	void getAll();
-	void update(Game game);
-	void delete(Game game);
+public interface GameService extends BaseService<Game> {
+
 }

@@ -1,6 +1,6 @@
 package core;
 
-import entities.User;
+import entities.concretes.User;
 
 public interface UserIdentityValidatorService {
 	boolean isValid(User user);

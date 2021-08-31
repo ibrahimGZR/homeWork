@@ -1,31 +1,41 @@
 package business.concretes;
 
+import java.util.List;
+
 import business.abstracts.GamePlayedService;
-import entities.GamePlayed;
+import dataAccess.abstracts.GamePlayedDao;
+import entities.concretes.GamePlayed;
 
 public class GamePlayedManager implements GamePlayedService {
+
+	GamePlayedDao gamePlayedDao;
+	public GamePlayedManager(GamePlayedDao gamePlayedDao) {
+		super();
+		this.gamePlayedDao = gamePlayedDao;
+	}
 
 	@Override
 	public void add(GamePlayed gamePlayed) {
 		this.printGameScore(gamePlayed);
+		this.gamePlayedDao.add(gamePlayed);
 	}
 
 	@Override
-	public void getAll() {
+	public List<GamePlayed> getAll() {
 		System.out.println("Oynanış listelendi : ");
-
+		return this.gamePlayedDao.getAll();
 	}
 
 	@Override
 	public void update(GamePlayed gamePlayed) {
 		System.out.println("Oynanış güncellendi : " + gamePlayed.getId());
-
+		this.gamePlayedDao.update(gamePlayed);
 	}
 
 	@Override
 	public void delete(GamePlayed gamePlayed) {
 		System.out.println("Oynanış silindi : " + gamePlayed.getId());
-
+		this.gamePlayedDao.delete(gamePlayed);
 	}
 
 	public double calculateGameScore(GamePlayed gamePlayed) {

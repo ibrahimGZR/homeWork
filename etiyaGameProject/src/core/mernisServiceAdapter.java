@@ -1,6 +1,6 @@
 package core;
 
-import entities.User;
+import entities.concretes.User;
 import mernis.mernisService;
 
 public class mernisServiceAdapter implements UserIdentityValidatorService {

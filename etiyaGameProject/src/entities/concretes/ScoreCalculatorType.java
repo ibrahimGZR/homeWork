@@ -1,6 +1,8 @@
-package entities;
+package entities.concretes;
 
-public class ScoreCalculatorType {
+import entities.abstracts.Entity;
+
+public class ScoreCalculatorType implements Entity{
 	private int id;
 	private String name;
 	private double rate;

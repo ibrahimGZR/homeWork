@@ -1,6 +1,8 @@
-package entities;
+package entities.concretes;
 
-public class User {
+import entities.abstracts.Entity;
+
+public class User implements Entity{
 	private int id;
 	private String firstName;
 	private String lastName;

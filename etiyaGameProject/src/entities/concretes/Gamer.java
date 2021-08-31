@@ -1,6 +1,8 @@
-package entities;
+package entities.concretes;
 
-public class Gamer extends User {
+import entities.abstracts.Entity;
+
+public class Gamer extends User implements Entity{
 	private String gender;
 	private double gameScore;
 

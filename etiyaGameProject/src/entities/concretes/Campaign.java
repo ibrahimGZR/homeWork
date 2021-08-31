@@ -1,6 +1,8 @@
-package entities;
+package entities.concretes;
 
-public class Campaign {
+import entities.abstracts.Entity;
+
+public class Campaign implements Entity{
 	private int id;
 	private String name;
 	private double discountRate;

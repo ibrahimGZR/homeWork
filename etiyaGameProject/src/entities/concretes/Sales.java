@@ -1,6 +1,8 @@
-package entities;
+package entities.concretes;
 
-public class Sales {
+import entities.abstracts.Entity;
+
+public class Sales implements Entity{
 	private int id;
 	private Game game;
 	private Gamer gamer;
