@@ -1,4 +1,6 @@
+
 import java.util.ArrayList;
+import java.util.List;
 
 import business.CampaignManager;
 import business.CustomerManager;
@@ -49,6 +51,10 @@ public class Main {
 		Sales sales1 = new Sales(1, games, customer1, campaign2);
 		SalesManager salesManager = new SalesManager(new SalesDao());
 		salesManager.add(sales1);
+		
+		
+		
+		
 	}
 	
 	

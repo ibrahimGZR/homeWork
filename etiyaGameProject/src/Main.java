@@ -32,8 +32,8 @@ public class Main {
 
 		Gamer gamer1 = new Gamer(1, "Gizem", "Özgün", "1111111111", 1998, "Kız", 95);
 		Gamer gamer2 = new Gamer(2, "İbrahim", "Gezer", "10000000", 1992, "Erkek", 90);
-		Gamer gamer3 = new Gamer(2, "Çocuk", "çck", "10000000", 2017, "Kız", 80);
-		Gamer gamer4 = new Gamer(2, "Yaşlı", "yşl", "10000000", 1960, "Erkek", 100);
+		Gamer gamer3 = new Gamer(3, "Çocuk", "çck", "10000000", 2017, "Kız", 80);
+		Gamer gamer4 = new Gamer(4, "Yaşlı", "yşl", "10000000", 1960, "Erkek", 100);
 
 		Sales sales1 = new Sales(1, game1, gamer1, campaign1);
 
